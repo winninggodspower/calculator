@@ -16,7 +16,7 @@ ___
 - JAVASCRIPT
 
 
-> __💪: you can do arithmetics with your numpad keys__
+> __💪: you can do arithmetics with your numpad keys on your keyboard⌨__
 
 ___visit site ant [calculator.com](http://calculator.com)___
 
