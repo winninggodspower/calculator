@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.modals{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: bisque;
+    padding: 3%;
+    text-transform: uppercase;
+}
+
+div.modals span{
+    padding: 0px 10px;
+    margin-right: 1ch;
+    background-color: red;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+div.calculator{
+    padding: 2%;
+    width: 100%;
+    max-width: 350px;
+    background-color: gray;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 8px black;
+}
+
+div.result{
+    border-radius: 7px;
+    width: 100%;
+    background-color: rgb(150, 137, 137);
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+div.result p{
+    letter-spacing: .5ch;
+    font-size: large;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+div.result h3{
+    text-align: end;
+    font-size: x-large;
+}
+
+div.buttons{
+    width: 100%;
+    display: grid;
+    grid-column-gap: 2%;
+    grid-template-columns: repeat(3, 31.3%);
+
+}
+
+div.buttons div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+div.buttons div div.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/.5;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgb(144, 91, 243);
+    box-shadow: 3px 3px 3px rgb(110, 100, 100);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+div.buttons div div.numbers:active{
+    box-shadow: inset 3px 3px 5px rgb(119, 112, 112);
+}
