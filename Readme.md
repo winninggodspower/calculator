@@ -18,5 +18,5 @@ ___
 
 > __💪: you can do arithmetics with your numpad keys on your keyboard⌨__
 
-___visit site ant [calculator.com](http://calculator.com)___
+___visit site ant [calculator.com](http://http://winningcalculator.ml/)___
 
